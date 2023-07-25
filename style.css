@@ -18,7 +18,7 @@
     border-radius: 10px;
 }
 
-/* Styles for the nav-items on hover */
+
 .nav-item:hover a {
     background-color: #90928D; 
     color: #fff; 
