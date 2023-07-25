@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Nanum+Gothic+Coding:wght@700&family=Oswald:wght@300;400&display=swap');
+
+.navbar{
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+    border-radius: 10px;
+}
+
+/* Styles for the nav-items on hover */
+.nav-item:hover a {
+    background-color: #90928D; 
+    color: #fff; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    font-family: 'Nanum Gothic Coding';
+    font-display: bold !important;
+}
+
+header h1{
+    font-size: 100px;
+}
+
+header p{
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #2af18f;
+}
+
+#details{
+    margin-top: 100px;
+}
+
+.titles{
+    font-family: 'Nanum Gothic Coding';
+    font-display: bold !important;
+    font-size: 50px;
+    display: inline-block;
+    border-bottom: 2px solid #2af18f;
+}
+
+section{
+    margin-top: 25vh;
+}
+
+section p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.card{
+    background-color: #90928D;
+}
+
+
