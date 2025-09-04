@@ -2,186 +2,203 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loren Briz - Web Developer Resume</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="fonts6/css/all.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Get to know me">
+    <meta name="author" content="Devcrud">
+    <title>Briz Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
 
-<body>
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a id="brand" class="navbar-brand" href="#">Resume</a>
-    
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#section1">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section2">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section3">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#section4">Contact</a>
-            </li>
-          </ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Hello!</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
         </div>
-      </div>
-    </nav>
-  
+    </nav><!-- End of Page Navbar -->
 
-    <header class="text-center">
-        <h1 id="header-h1">Loren Briz</h1>
-        <p id="header-p">Web Developer</p>
-    </header>
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="down">I am Loren Briz</span>
+            </h1>
+            <p class="header-subtitle">Software Developer | Motion | Graphic Designer</p>
 
+            <a href="#portfolio"  class="btn btn-primary">View Sample Works</a>
+        </div>
+    </header><!-- end of page header -->
 
-  <div id="details" class="container">
-    <section id="section1">
-      <h2 id="about" class="titles">About Me</h2>
-      <p>
-        Diligent, technologically-savvy and highly motivated to harness my skills in the field of Web and
-Mobile App Development. Searching for a career opportunity to put my knowledge to good use.
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/avatar1.jpg" class="about-img"
+                        alt="A smiling girl wearing a blue poloshirt">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Diligent, technologically-savvy and highly motivated to harness my skills in the field of Web and
+                        Mobile App Development and Computer Systems Servicing. Searching for a career opportunity
+                        to put my knowledge to good use. 
+                    </p>
+                    <a href="downloadables/Resume.pdf" download class="btn-rounded btn btn-outline-primary mt-4">Download Resume</a>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
 
-      </p>
-    </section>
-
-
-    <section id="section2">
-        <h2 id="skills" class="titles">Skills</h2>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                          <i class="fa-brands fa-html5 fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">HTML5</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                          <i class="fa-brands fa-css3-alt fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">CSS3</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-brands fa-square-js fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">Javascript</h5>
-                            </div>
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg"
+                                class="icon">
+                            <h6 class="title">Graphic Design</h6>
+                            <p class="subtitle">I can help you create eye catching scroll-stopping graphics for any application</p>
                         </div>
                     </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-brands fa-php fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">PHP</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-brands fa-laravel fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">Laravel</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-solid fa-database fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">MySQL</h5>
-                            </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg"
+                                class="icon">
+                            <h6 class="title">Animation</h6>
+                            <p class="subtitle">I can help you create enagaging AI voiced animation videos for any application.</p>
                         </div>
                     </div>
                 </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-brands fa-node fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">Node.js</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-brands fa-square-js fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">Express.js</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="fa-brands fa-react fa-8x text-center mt-5" style="color: #2af18f;"></i>
-                            <div class="card-body">
-                              <h5 class="card-title text-center mt-5">React.js</h5>
-                            </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg"
+                                class="icon">
+                            <h6 class="title">Software Development</h6>
+                            <p class="subtitle">I can help you create productivity boosting web and mobile applications.</p>
                         </div>
                     </div>
                 </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
-      
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
 
-    <section id="section3">
-      <h2 id="exp" class="titles">Experience</h2>
-      <h4>Freelance Web Developer</h4>
-      <p>
-        Developed a catering services reservation system using Laravel and MySQL, allowing clients to book catering
-        services online. Implemented a user-friendly interface and backend functionality for managing reservations and
-        customer data.
-      </p>
-    </section>
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-card">
+                        <img src="assets/imgs/elib.PNG" class="portfolio-card-img">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Website</h5>
+                                    <p class="font-weight-normal">A simple E-Library Managemant Website</p>
+                            </span>
+                        </span>
+                    </div>
+                    <a href="https://www.elibdemo.shop" target="_blank" rel="noopener noreferrer" class="btn-rounded btn btn-outline-primary mt-4">Go to website</a>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/graphic.PNG" class="img-responsive rounded">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Graphic Designing</h5>
+                                    <p class="font-weight-normal">Graphics</p>
+                            </span>
+                        </span>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1ElEjedYYiFiW4E8ZtmEIjAlfLtGXpO18?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn-rounded btn btn-outline-primary mt-4">See Samples</a>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/anim.PNG" class="img-responsive rounded">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Animations</h5>
+                                    <p class="font-weight-normal">Animations</p>
+                            </span>
+                        </span>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1Ey7oi139n2DkcZ2o2vPDLVTVlVwDuvs8?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-rounded btn btn-outline-primary mt-4">See Samples</a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
 
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <h6 class="title text-light">Discord : anaknitokwa</h6>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
 
-    <section id="section4">
-      <h2 id="contact" class="titles">Contact</h2>
-      <p><span style="margin-right: 10px;"><i class="fa-solid fa-envelope"></i></span>Email: lorenbriz8@gmail.com</p>
-      <p><span style="margin-right: 10px;"><i class="fa-solid fa-mobile"></i></span>Mobile: 0912-345-6789</p>
-    </section>
-  </div>
+    <!-- footer -->
+    <div class="container text-center">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script>
+            </p>
+        </footer>
+    </div> <!-- end of page footer -->
 
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-  <script src="app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
 </body>
 
 </html>
